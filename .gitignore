@@ -1,0 +1,5 @@
+node_modules
+dist
+src/lib/api/kassy-api/config.js
+public
+src/views

@@ -1,0 +1,47 @@
+{
+  "name": "master-server",
+  "version": "1.0.0",
+  "description": "Master",
+  "scripts": {
+    "dev": "nodemon -w src -x \"babel-node ./src\"",
+    "build": "babel ./src -d ./dist",
+    "start": "node ./dist",
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.kassy.ru/aler/master-server.git"
+  },
+  "author": "Aler Senkevich",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "debug": "^3.1.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "intel": "^1.2.0",
+    "ip-address": "^5.8.8",
+    "ipaddr": "0.0.9",
+    "lodash": "^4.17.4",
+    "md5": "^2.2.1",
+    "moment": "^2.19.0",
+    "moment-timezone": "^0.5.13",
+    "mongoose": "^4.12.1",
+    "node-fetch": "^1.7.3",
+    "pug": "^2.0.0-rc.4",
+    "ws": "^3.2.0",
+    "xml2json": "^0.11.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "eslint": "^4.8.0",
+    "eslint-config-atomix-base": "^4.3.0",
+    "nodemon": "^1.12.1"
+  }
+}
